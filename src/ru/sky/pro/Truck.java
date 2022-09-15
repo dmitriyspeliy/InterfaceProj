@@ -1,25 +1,6 @@
 package ru.sky.pro;
 
-public class Truck implements toCheckEngine,toCheckTrailer,toUpdateTyre {
-    private String modelName;
-    private int wheelsCount;
-
-    public String getModelName() {
-        return modelName;
-    }
-
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
-    public int getWheelsCount() {
-        return wheelsCount;
-    }
-
-    public void setWheelsCount(int wheelsCount) {
-        this.wheelsCount = wheelsCount;
-    }
-
+public class Truck extends Vehicle implements toCheckEngine,toCheckTrailer,toUpdateTyre {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }

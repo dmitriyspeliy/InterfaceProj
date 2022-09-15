@@ -1,26 +1,6 @@
 package ru.sky.pro;
 
-public class Bicycle implements toUpdateTyre {
-
-    private String modelName;
-    private int wheelsCount;
-
-    public String getModelName() {
-        return modelName;
-    }
-
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
-    public int getWheelsCount() {
-        return wheelsCount;
-    }
-
-    public void setWheelsCount(int wheelsCount) {
-        this.wheelsCount = wheelsCount;
-    }
-
+public class Bicycle extends Vehicle implements toUpdateTyre {
     @Override
     public void updateTyre() {
         System.out.println("Меняем покрышку");
