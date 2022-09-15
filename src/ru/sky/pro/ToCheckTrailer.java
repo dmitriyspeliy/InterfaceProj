@@ -1,5 +1,5 @@
 package ru.sky.pro;
 
-public interface toCheckTrailer {
+public interface ToCheckTrailer {
     void checkTrailer();
 }

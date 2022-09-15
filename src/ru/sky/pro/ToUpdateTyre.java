@@ -1,5 +1,5 @@
 package ru.sky.pro;
 
-public interface toUpdateTyre {
+public interface ToUpdateTyre {
     void updateTyre();
 }

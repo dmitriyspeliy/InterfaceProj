@@ -1,5 +1,5 @@
 package ru.sky.pro;
 
-public interface toCheckEngine {
+public interface ToCheckEngine {
     void checkEngine();
 }
